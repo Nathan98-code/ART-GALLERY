@@ -14,7 +14,7 @@
          <a href="location.html"  target="_blank"><div class="mobile_location">OUR LOCATION</div></a>
          <a href="#" target="_blank"><img class="mobile_Rarrow" src="https://lh3.googleusercontent.com/JgFP_P7ggIb-iekdHx9aYc2bH8jRxg7MEyO9sij_umy95v1KEklHiMI4VbHrxH9qUbzqgB4bX-DUKUIEX3R02f7C6EfeciPS7QsOp6b1KuR6KBY3VBaIpNzAwSayDYc4I35uRIpMOw=s240-p-k"></a>
          <img class="mobile_img2" style="max-width:100%;" src="https://lh3.googleusercontent.com/Fj64owryB63IrNAzwxkeLyXA9UaW9_PYmIBRPYGbL4dlfdvInZ_W7_cS_DMG5LlW_DNwBA_PNTiqCby-Q0uPkZkoz5nTUcTgTUT86GzdaA0eswRDUmcM3Z0mM3I_mksQvOMnUWgo3A=w2400">
-         <div class="mobile_welcome" ><b><br>YOUR DAY AT </br>THE GALLERY</b></div>
+         <div class="mobile_welcome" ><b><br>YOUR DAY </br>AT THE GALLERY</b></div>
          <div class="mobile_caption1">Wander through our distinct <br>collections and find new insights</br> about our artists. Dive into the details<br> of their creative process.</br> </div>
          <img class="mobile_img3" style="max-width:100%;" src="https://lh3.googleusercontent.com/pw/AL9nZEWEn5wusySwHA5HGzesnkX1ujTuymY2E3L06nSNOJfh0go7f8W5Qnt_-T6XkDId5Db7iVY2kPkxoHwJ5LefYuzHRfXGKLdJo9mWlCtZ1XNM4p4Lo-g=w2400">
          <img class="mobile_img4" style="max-width:100%;" src="https://lh3.googleusercontent.com/pw/AL9nZEWhp2YO9DIHjcf_0OM8vCxvy4A20eNkocjN1X2Ih1MS4i9Lj06qociJ-oQ-ha82ON5NqtgpcGPKFKtWv-qecXe9DzatDNRcCE_kwSiRtdE9IzeinCE=w2400">
@@ -446,8 +446,8 @@
     display: none;
    }
 
-  
-
+ 
+     
   @media screen and (min-width: 360px) and (max-width: 640px){
 
 @font-face {
@@ -579,9 +579,12 @@
    .mobile_img1{
     position: absolute;
     display:block;
-    left: 10px;
     width: 375px;
     height: 245px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
   
    }
 
@@ -589,28 +592,34 @@
     position: absolute;
     display: block;
     font-family: 'Big Shoulders Display';
-    font-size: 50px;
-    line-height: 50px;
-    font-weight: 900px;
     width: 343px;
     height: 110px;
     top: 272px;
     left: 23px;
-  
+    font-family: Big Shoulders Display;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 55px;
+    letter-spacing: 0px;
+    text-align: left;
+
    }
    
    .mobile_description{
     position: absolute;
     display: block;
     font-family: 'Outfit';
-    font-size: 18px;
-    line-height: 16px;
-    font-weight: 300px;
     height: 112px;
     width: 343px;
     left: 23px;
     top: 414px;
     border-radius: nullpx;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+
 
    }
 
@@ -619,13 +628,21 @@
     display: block;
     background-color: black;
     color: white;
-    width: 130px;
-    height: 30px;
-    font-size: 13px;
-    top: 560px;
-    left: 23px;
-    padding-top: 15px;
-    padding-left: 25px;
+    padding-top: 22px;
+    padding-left: 35px;
+    height: 42px;
+    width: 210px;
+    left: 16px;
+    top: 558px;
+    border-radius: 0px;
+    font-family: 'Big Shoulders Display';
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 3.6363637447357178px;
+    text-align: left;
+
+
   }
 
   .location:hover{
@@ -647,46 +664,61 @@
     position: absolute;
     display: block;
     width: 343px;
-    top: 630px;
-    left: 10px;
-  
+    height: 320px;
+    left: 16px;
+    top: 700px;
+    border-radius: 0px;
 
  }
 
  .mobile_welcome{
     position: absolute;
     display: block;
-    top: 850px;
+    top: 1000px;
     font-size: 50px;
     font-family: 'Big Shoulders Display';
     left: 23px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+
  }
 
  .mobile_caption1{
     position: absolute;
     display: block;
-    top: 1050px;
+    top: 1170px;
     font-family: 'Outfit';
-    font-size: 18px;
     left: 23px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
  }
 
  .mobile_img3{
     position: absolute;
     display: block;
-    top: 1150px;
     width:343px;
     height: 480px;
-    left: 10px;
+    left: 16px;
+    top: 1350px;
+    border-radius: 0px;
+
  }
 
  .mobile_img4{
     position: absolute;
     display: block;
-    top: 1650px;
-    width: 343px;
     height: 200px;
-    left: 10px;
+    width: 343px;
+    left: 16px;
+    top: 1846px;
+    border-radius: 0px;
+
  }
 
  #mobile_r{
@@ -695,8 +727,13 @@
     display: block; 
     top: 40px;
     left: 20px;
-    font-size: 40px;
     font-family: 'Big Shoulders Display';
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: left;
+
 
   }
 
@@ -705,30 +742,41 @@
     position: absolute;
     display: block;
     color: white;
-    top: 150px;
-    left: 20px;
     font-family: 'Outfit';
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    height: 84px;
+    width: 295px;
+    left: 20px;
+    top: 154px;
+    border-radius: nullpx;
+
+
   }
 
   .mobile_inspired{
     position: absolute;
     display: block;
-    left: 10px;
-    top: 1860px;
     margin-bottom: 900px;
     background-color: black;
-    width: 340px;
-    height: 290px;
+    height: 293px;
+    width: 343px;
+    left: 16px;
+    top: 2062px;
+    border-radius: 0px;
+
   }
 
   #mobile_p{
     display: block;
      padding-left: 30px;
-     padding-top: 50px;
-    color: white;
-    font-size: 20px;
-    font-family: 'Big Shoulders Display';
+     padding-top: 30px;
+     color: white;
+     font-size: 22px;
+     font-family: 'Big Shoulders Display';
    
   }
 
@@ -739,23 +787,37 @@
     bottom: 120px;
     padding-left: 30px;
     font-size: 16px;
-    line-height: 18px;
+    height: 104px;
+    width: 311px;
+    left: 0px;
+    top: 78px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+     border-radius: nullpx;
+
     
   }
 
   .mobile_foooter{
     display: block;
     position: absolute;
-    top: 2200px;
     background-color: black;
-    width: 355px;
     height: 336px;
-    left: 10px;
+    width: 375px;
+    left: 0px;
+    top: 2475px;
+    border-radius: 0px;
+
   }
   
   
  
 }
+
+
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1007px) {
 
